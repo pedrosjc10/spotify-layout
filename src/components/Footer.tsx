@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export function Footer(){
     return(
-        <footer className="bg-zinc-800 border-t border-zinc-700 p-5 flex items-center justify-between">
+        <footer className="bg-zinc-800 border-t border-zinc-700 p-5 flex items-center justify-between fixed bottom-0 left-0 right-0">
             <div className="flex items-center">
                 <Image src="/album.jpeg" className="rounded-md" width={56} height={56} alt="capa do album exaltasamba"/>
                 <div className="flex flex-col pl-4">

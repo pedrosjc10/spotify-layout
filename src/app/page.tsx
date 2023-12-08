@@ -8,7 +8,7 @@ export default function Home() {
     <div className="h-screen flex flex-col">
         <div className="flex flex-1">
             <Aside />
-            <main className="flex-1 p-6">
+            <main className="flex-1 p-6 overflow-y">
                 <div className="flex items-center gap-4">
                     <button className="rounded-full bg-black/40 p-1">
                         <ChevronLeft />
@@ -78,29 +78,60 @@ export default function Home() {
                     <a href="" className="bg-white/5 p-3 flex flex-col rounded hover:bg-white/10">
                         <Image src="/album.jpeg" className="w-full" width={120} height={120} alt="capa do album exaltasamba"/>
                         <strong className="font-semibold">Mix 1</strong>
-                        <span className="text-sm text-zinc-400">Pixote, Ferrugen, Exaltasamba e mais</span>
+                        <span className="text-sm text-zinc-400">Pixote e mais</span>
                     </a>
                     <a href="" className="bg-white/5 p-3 flex flex-col rounded hover:bg-white/10">
                         <Image src="/album.jpeg" className="w-full" width={120} height={120} alt="capa do album exaltasamba"/>
                         <strong className="font-semibold">Mix 2</strong>
-                        <span className="text-sm text-zinc-400">Pixote, Ferrugen, Exaltasamba e mais</span>
+                        <span className="text-sm text-zinc-400">Pixote e mais</span>
                     </a>
                     <a href="" className="bg-white/5 p-3 flex flex-col rounded hover:bg-white/10">
                         <Image src="/album.jpeg" className="w-full" width={120} height={120} alt="capa do album exaltasamba"/>
                         <strong className="font-semibold">Mix 3</strong>
-                        <span className="text-sm text-zinc-400">Pixote, Ferrugen, Exaltasamba e mais</span>
+                        <span className="text-sm text-zinc-400">Pixote e mais</span>
                     </a>
                     <a href="" className="bg-white/5 p-3 flex flex-col rounded hover:bg-white/10">
                         <Image src="/album.jpeg" className="w-full" width={120} height={120} alt="capa do album exaltasamba"/>
                         <strong className="font-semibold">Mix 4</strong>
-                        <span className="text-sm text-zinc-400">Pixote, Ferrugen, Exaltasamba e mais</span>
+                        <span className="text-sm text-zinc-400">Pixote e mais</span>
                     </a>
                     <a href="" className="bg-white/5 p-3 flex flex-col rounded hover:bg-white/10">
                         <Image src="/album.jpeg" className="w-full" width={120} height={120} alt="capa do album exaltasamba"/>
                         <strong className="font-semibold">Mix 5</strong>
-                        <span className="text-sm text-zinc-400">Pixote, Ferrugen, Exaltasamba e mais</span>
+                        <span className="text-sm text-zinc-400">Pixote e mais</span>
                     </a>
                 </div>
+
+                <h3 className="font-semibold text-2xl mt-4">Seus mixes mais ouvidos</h3>
+
+                <div className="grid grid-cols-8 gap-4 mt-4">
+                    <a href="" className="bg-white/5 p-3 flex flex-col rounded hover:bg-white/10">
+                        <Image src="/album.jpeg" className="w-full" width={120} height={120} alt="capa do album exaltasamba"/>
+                        <strong className="font-semibold">Mix 1</strong>
+                        <span className="text-sm text-zinc-400">Pixote e mais</span>
+                    </a>
+                    <a href="" className="bg-white/5 p-3 flex flex-col rounded hover:bg-white/10">
+                        <Image src="/album.jpeg" className="w-full" width={120} height={120} alt="capa do album exaltasamba"/>
+                        <strong className="font-semibold">Mix 2</strong>
+                        <span className="text-sm text-zinc-400">Pixote e mais</span>
+                    </a>
+                    <a href="" className="bg-white/5 p-3 flex flex-col rounded hover:bg-white/10">
+                        <Image src="/album.jpeg" className="w-full" width={120} height={120} alt="capa do album exaltasamba"/>
+                        <strong className="font-semibold">Mix 3</strong>
+                        <span className="text-sm text-zinc-400">Pixote e mais</span>
+                    </a>
+                    <a href="" className="bg-white/5 p-3 flex flex-col rounded hover:bg-white/10">
+                        <Image src="/album.jpeg" className="w-full" width={120} height={120} alt="capa do album exaltasamba"/>
+                        <strong className="font-semibold">Mix 4</strong>
+                        <span className="text-sm text-zinc-400">Pixote e mais</span>
+                    </a>
+                    <a href="" className="bg-white/5 p-3 flex flex-col rounded hover:bg-white/10">
+                        <Image src="/album.jpeg" className="w-full" width={120} height={120} alt="capa do album exaltasamba"/>
+                        <strong className="font-semibold">Mix 5</strong>
+                        <span className="text-sm text-zinc-400">Pixote e mais</span>
+                    </a>
+                </div>
+                <div className="mb-24"></div>
             </main>
         </div>
         <Footer />

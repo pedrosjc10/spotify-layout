@@ -2,7 +2,7 @@ import { Home as HomeIcon, Search, Library} from 'lucide-react'
 
 export function Aside(){
     return(
-        <aside className="w-72 bg-zinc-950 p-6">
+        <aside className="w-72 bg-zinc-950 p-6 fixed left-0 top-0 h-full">
             <div className="flex items-center gap-2">
                 <div className="w-3 h-3 bg-red-500 rounded-full"/>
                 <div className="w-3 h-3 bg-yellow-400 rounded-full"/>
